@@ -234,10 +234,14 @@ export default function Hero() {
                   <ArrowRight className="w-4 h-4 opacity-50" />
                 </Link>
               </motion.div>
+            
             </motion.div>
+            
           </AnimatePresence>
+          
         </div>
       </div>
+      
 
       {/* Floating Social/Contact Icons (Glassmorphic Dark Mode) */}
       <motion.div
