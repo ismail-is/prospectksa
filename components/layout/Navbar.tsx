@@ -9,9 +9,9 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "About Us", href: "#about" },
-  { name: "Services", href: "#services" },
-  { name: "Projects", href: "#projects" },
+  { name: "About Us", href: "/about" },
+  { name: "Services", href: "/#services" },
+  { name: "Projects", href: "/project-completed" },
   { name: "Contact Us", href: "/contact" },
 ];
 
@@ -40,7 +40,7 @@ const servicesList = [
   {
     name: "Lifting Materials",
     desc: "Rigging hardware, slings, shackles, and material handling.",
-    href: "#services",
+    href: "/lifting-materials",
     image: "/project_image_1.png",
     icon: Boxes,
   },
@@ -279,7 +279,7 @@ export default function Navbar() {
           {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-5">
             <a
-              href="tel:+966551234567"
+              href="tel:+966539370929"
               className={cn(
                 "flex items-center gap-2 transition-colors group",
                 scrolled ? "text-brand-navy hover:text-brand-orange" : "text-white hover:text-brand-orange"
@@ -291,7 +291,7 @@ export default function Navbar() {
               )}>
                 <Phone className="w-4 h-4" />
               </div>
-              <span className="text-sm font-bold hidden xl:block">+966 55 123 4567</span>
+              <span className="text-sm font-bold hidden xl:block">+966 53 937 0929</span>
             </a>
             
             <Link
@@ -417,13 +417,13 @@ export default function Navbar() {
                   transition={{ delay: 0.5 }}
                   className="flex flex-col gap-4"
                 >
-                  <a href="tel:+966551234567" className="flex items-center gap-3 text-brand-navy p-4 bg-white rounded-2xl shadow-sm">
+                  <a href="tel:+966539370929" className="flex items-center gap-3 text-brand-navy p-4 bg-white rounded-2xl shadow-sm">
                     <div className="w-10 h-10 rounded-full bg-brand-orange/10 flex items-center justify-center">
                       <Phone className="w-5 h-5 text-brand-orange" />
                     </div>
                     <div>
                       <p className="text-xs text-gray-500 font-medium">Call Us Now</p>
-                      <p className="font-bold text-lg">+966 55 123 4567</p>
+                      <p className="font-bold text-lg">+966 53 937 0929</p>
                     </div>
                   </a>
                   <Link

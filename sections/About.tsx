@@ -72,7 +72,7 @@ export default function About() {
             
             <motion.div variants={itemVariants}>
               <Link
-                href="#"
+                href="/about"
                 className="inline-flex items-center gap-2 border-2 border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white px-8 py-3.5 rounded-full font-semibold transition-all group"
               >
                 More About Us

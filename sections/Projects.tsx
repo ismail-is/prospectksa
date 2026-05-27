@@ -69,7 +69,7 @@ export default function Projects() {
             className="flex items-center gap-4"
           >
             <Link
-              href="#"
+              href="/project-completed"
               className="text-brand-navy font-semibold hover:text-brand-orange transition-colors mr-4 hidden md:flex items-center gap-2 group"
             >
               View All Projects

@@ -28,7 +28,7 @@ const services = [
     icon: Anchor,
     title: "Lifting Materials",
     description: "Wide range of lifting equipment and materials for safe operations.",
-    href: "/contact",
+    href: "/lifting-materials",
   },
   {
     icon: Wrench,
@@ -80,7 +80,7 @@ export default function Services() {
             </h2>
           </div>
           <Link
-            href="#"
+            href="/contact"
             className="flex items-center gap-2 text-brand-navy font-semibold hover:text-brand-orange transition-colors group"
           >
             View All Services

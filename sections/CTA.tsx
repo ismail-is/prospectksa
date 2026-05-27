@@ -8,8 +8,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    details: "+966 55 123 4567",
-    href: "tel:+966551234567",
+    details: "+966 53 937 0929",
+    href: "tel:+966539370929",
   },
   {
     icon: Mail,
@@ -21,7 +21,7 @@ const contactInfo = [
     icon: MapPin,
     title: "Visit Us",
     details: "Dammam, Saudi Arabia",
-    href: "#",
+    href: "/contact",
   },
 ];
 
@@ -48,7 +48,7 @@ export default function CTA() {
               </p>
               
               <Link
-                href="#"
+                href="/contact"
                 className="inline-flex items-center gap-3 bg-brand-orange hover:bg-brand-orange-dark text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-[0_4px_20px_rgba(255,101,0,0.4)] hover:shadow-[0_8px_30px_rgba(255,101,0,0.5)] hover:-translate-y-1 group"
               >
                 Get a Free Quote

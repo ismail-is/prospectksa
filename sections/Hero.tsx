@@ -248,8 +248,8 @@ export default function Hero() {
       >
         <div className="bg-brand-navy-dark/40 backdrop-blur-md border border-white/10 p-2.5 rounded-2xl flex flex-col gap-3 shadow-2xl">
           {[
-            { icon: MessageCircle, href: "https://wa.me/966551234567" },
-            { icon: Phone, href: "tel:+966551234567" },
+            { icon: MessageCircle, href: "https://wa.me/966539370929" },
+            { icon: Phone, href: "tel:+966539370929" },
             { icon: Mail, href: "mailto:info@prospectksa.com" },
             { icon: MapPin, href: "#contact" },
           ].map((item, idx) => (
