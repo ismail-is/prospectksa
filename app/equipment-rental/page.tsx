@@ -553,7 +553,7 @@ Please provide availability and pricing details.`;
       </section>
 
       {/* 3. BENEFITS GRID (DEPLOYS THE EXACT 11 BENEFITS FROM SITE) */}
-      <section className="py-24 bg-brand-gray relative overflow-hidden">
+      {/* <section className="py-24 bg-brand-gray relative overflow-hidden">
         {/* Soft Background Radial */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] rounded-full bg-brand-orange/5 blur-[120px] pointer-events-none" />
 
@@ -598,7 +598,7 @@ Please provide availability and pricing details.`;
           </motion.div>
 
         </div>
-      </section>
+      </section> */}
 
       {/* 4. FLEET PORTFOLIO SECTION */}
       <section id="fleet-showcase" className="py-24 bg-white relative overflow-hidden">
