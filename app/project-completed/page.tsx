@@ -76,7 +76,7 @@ const projectsData: ProjectItem[] = [
     id: "2",
     name: "TUBE BUNDLE INSERTION IN SHELL",
     category: "Mechanical",
-    client: "GILF CONVINENT",
+    client: "GULF CONVINENT",
     location: "Dammam Second Industrial Area",
     duration: "26-04-2024 to 05-10-2024",
     image: "/project_tube_bundle.png",

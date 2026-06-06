@@ -14,7 +14,7 @@ const stats = [
   },
   {
     icon: Database,
-    value: 75000,
+    value: 10000,
     suffix: "+",
     label: "Aramco-Certified Talent Pool",
     tag: "// DATABASE",

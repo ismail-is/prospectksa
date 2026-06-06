@@ -12,7 +12,7 @@ interface CountUpProps {
 
 export function CountUp({ to, duration = 2, className, suffix = "" }: CountUpProps) {
   const ref = useRef<HTMLSpanElement>(null);
-  const isInView = useInView(ref, { once: true, rootMargin: "-100px" });
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
   const [hasStarted, setHasStarted] = useState(false);
 
   const motionValue = useMotionValue(0);

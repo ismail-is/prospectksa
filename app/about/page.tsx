@@ -68,7 +68,7 @@ interface ClientLogo {
 
 const stats: StatItem[] = [
   { value: "120+", label: "Engineers & Experts", desc: "Qualified workforce", icon: HardHat },
-  { value: "75,000+", label: "Resume Database", desc: "Wide recruitment pool", icon: Users },
+  { value: "10,000+", label: "Resume Database", desc: "Wide recruitment pool", icon: Users },
   { value: "100+", label: "Projects Completed", desc: "Successful handovers", icon: Briefcase },
   { value: "10+", label: "Years Experience", desc: "Serving Saudi Arabia", icon: Clock },
 ];

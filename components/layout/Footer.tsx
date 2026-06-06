@@ -89,10 +89,10 @@ export default function Footer() {
             <Link href="/" className="inline-block group">
               <div className="relative w-[160px] h-[56px]">
                 <Image
-                  src="/images/logo.webp"
+                   src="/Prospect Logo.webp"
                   alt="Prospect KSA Logo"
                   fill
-                  className="object-contain object-left brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity duration-300"
+                  className="object-contain object-center bg-white rounded-[10px] "
                   sizes="160px"
                   priority={false}
                 />

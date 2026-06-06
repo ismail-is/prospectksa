@@ -81,7 +81,7 @@ const lifecycleStages = [
 const recruitmentStrengths = [
   {
     icon: Database,
-    title: "75,000+ Resume Database",
+    title: "10,000+ Resume Database",
     desc: "A massive, pre-vetted database of certified engineers, inspectors, and skilled laborers instantly searchable by credentials."
   },
   {
@@ -655,7 +655,7 @@ Please provide CV availability, rates, and mobilization times.`;
                   Accelerate Site Staffing
                 </h3>
                 <p className="text-slate-400 text-xs leading-relaxed">
-                  Submit your required profile variables. Our staffing desk will search our 75,000+ CV database and match your headcount requirements within 2 hours.
+                  Submit your required profile variables. Our staffing desk will search our 10,000+ CV database and match your headcount requirements within 2 hours.
                 </p>
               </div>
 

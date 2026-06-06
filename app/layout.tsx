@@ -7,6 +7,9 @@ import Footer from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "PROSPECT KSA | Industrial Excellence",
   description: "Leading provider of equipment rental, manpower solutions, coating, blasting, infrastructure, and industrial contracting services across Saudi Arabia.",
+  icons: {
+    icon: "/Prospect Logo.webp",
+  },
 };
 
 export default function RootLayout({

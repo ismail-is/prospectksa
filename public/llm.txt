@@ -1,0 +1,61 @@
+# Prospect KSA
+
+> Leading provider of heavy equipment rental, Aramco-certified manpower solutions, industrial blasting & coating, and lifting/rigging materials across Saudi Arabia.
+
+## Overview
+
+Prospect KSA (Ihtimal Company for General Contracting) is a premier industrial services provider based in Al-Khobar, Saudi Arabia. We serve major sectors including oil & gas, petrochemicals, energy, and construction with specialized solutions, high-capacity equipment, and certified professionals.
+
+---
+
+## Core Services
+
+### 1. Equipment Rental
+We offer a premium, modern fleet of heavy machinery and industrial equipment:
+- **Lifting & Cranes:** Mobile cranes (50T to 500T), crawler cranes, and rough-terrain cranes.
+- **Material Handling:** Forklifts (3T to 16T), telehandlers, and boom lifts.
+- **Earthmoving:** Excavators, loaders, dump trucks, and graders.
+- **Power & Air:** Air compressors, diesel generators (50kVA to 1000kVA), and light towers.
+
+### 2. Manpower Services
+Certified skilled workforce solutions tailored to heavy industrial projects:
+- **Aramco-Certified Personnel:** Riggers (Level I, II, III), safety officers, and QA/QC inspectors.
+- **Engineering & Supervision:** Mechanical, electrical, civil, and planning engineers.
+- **Technical Trades:** Pipefitters, welders (multi-process), fabricators, instrument technicians, and heavy equipment operators.
+
+### 3. Blasting & Coating
+Industrial surface preparation and protection services:
+- **Surface Preparation:** Dry abrasive blasting, grit blasting, sandblasting, and water jetting.
+- **Coating & Lining:** Epoxy coatings, polyurethane coatings, high-temperature linings, and fireproofing.
+- **QA/QC:** NACE-certified inspectors ensuring coating thickness and adhesion compliance.
+
+### 4. Lifting Materials
+Certified rigging hardware and lifting accessories:
+- **Hardware:** Shackles, turnbuckles, hooks, wire rope clips, and master links.
+- **Slings:** Wire rope slings, polyester webbing slings, and chain slings.
+- **Inspection & Testing:** Third-party certification and load testing services.
+
+---
+
+## Key Site Directory
+
+All paths are relative to `https://prospectksa.com`.
+
+- [Home Page](https://prospectksa.com/): Quick overview of stats, core services, completed projects list, primary clients, and testimonials.
+- [About Us](https://prospectksa.com/about): Corporate history, mission, vision, chairman and director messages, and quality/safety credentials.
+- [Equipment Rental](https://prospectksa.com/equipment-rental): Comprehensive list of available rental machinery, technical parameters, and inquiry forms.
+- [Manpower Services](https://prospectksa.com/manpower-services): Details on certifications, professions supplied, and compliance standards.
+- [Blasting & Coating](https://prospectksa.com/blasting-coating): Overview of surface preparation technologies, coating standards, and capabilities.
+- [Lifting Materials](https://prospectksa.com/lifting-materials): Product catalog of rigging hardware, slings, and lifting equipment.
+- [Completed Projects](https://prospectksa.com/project-completed): Portfolio showcasing key industrial contracting, camp construction, and pipeline maintenance jobs.
+- [Contact Us](https://prospectksa.com/contact): Multi-channel contact options, phone numbers, email, physical office address, and contact form.
+
+---
+
+## Contact Information
+
+- **Website:** https://prospectksa.com
+- **General Email:** info@prospectksa.com
+- **Phone / WhatsApp:** +966 53 937 0929
+- **Address:** Al-Khobar, Eastern Province, Kingdom of Saudi Arabia
+- **Parent/Affiliate:** [Prospect International](https://prospectintl.com)
