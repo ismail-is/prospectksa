@@ -24,7 +24,7 @@ const contactCards = [
     icon: Phone,
     title: "Call Us",
     detail: "+966 133636284 ",
-    subtext: "Sun - Thu 8:00 AM - 6:00 PM",
+    // subtext: "Sun - Thu 8:00 AM - 6:00 PM",
     href: "tel:+966539370929",
   },
   {
