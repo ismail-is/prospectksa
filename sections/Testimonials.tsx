@@ -6,12 +6,12 @@ import { Quote, ChevronLeft, ChevronRight, User } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "Prospect KSA has been a reliable partner in our projects. Their professionalism, quality of work and commitment to safety is truly exceptional.",
+    quote: " The Ihtimal Com has been a reliable partner in our projects. Their professionalism, quality of work and commitment to safety is truly exceptional.",
     name: "Ahmed Al-Qahtani",
     designation: "Project Manager, Aramco",
   },
   {
-    quote: "The level of expertise and the modern equipment provided by Prospect KSA significantly contributed to the on-time delivery of our plant expansion.",
+    quote: "The level of expertise and the modern equipment provided by  The Ihtimal Com significantly contributed to the on-time delivery of our plant expansion.",
     name: "Faisal Al-Dosari",
     designation: "Operations Director, SABIC",
   },
@@ -38,7 +38,7 @@ export default function Testimonials() {
       {/* Background Map Blur Effect */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-brand-orange/20 via-brand-navy to-brand-navy" />
-        <div 
+        <div
           className="w-full h-full"
           style={{
             backgroundImage: `radial-gradient(circle at 2px 2px, white 1px, transparent 0)`,
@@ -48,7 +48,7 @@ export default function Testimonials() {
       </div>
 
       <div className="container mx-auto px-4 md:px-8 relative z-10 flex flex-col md:flex-row gap-16 lg:gap-24 items-center">
-        
+
         <div className="md:w-1/3">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -62,7 +62,7 @@ export default function Testimonials() {
             <h2 className="font-outfit text-4xl md:text-5xl font-bold text-white mb-8">
               Trusted By Industry Leaders
             </h2>
-            
+
             <div className="flex gap-4">
               <button
                 onClick={prev}
@@ -83,7 +83,7 @@ export default function Testimonials() {
         <div className="md:w-2/3 w-full">
           <div className="glass-panel-dark rounded-3xl p-8 md:p-12 relative min-h-[300px] flex items-center">
             <Quote className="absolute top-8 right-10 w-24 h-24 text-white/5 rotate-12" />
-            
+
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentIndex}
@@ -96,7 +96,7 @@ export default function Testimonials() {
                 <p className="text-xl md:text-2xl text-white/90 font-outfit font-light leading-relaxed mb-10">
                   "{testimonials[currentIndex].quote}"
                 </p>
-                
+
                 <div className="flex items-center gap-4">
                   <div className="w-14 h-14 rounded-full bg-brand-orange/20 flex items-center justify-center border border-brand-orange/30">
                     <User className="w-6 h-6 text-brand-orange" />
@@ -112,16 +112,15 @@ export default function Testimonials() {
                 </div>
               </motion.div>
             </AnimatePresence>
-            
+
             {/* Dots */}
             <div className="absolute bottom-8 right-10 flex gap-2">
               {testimonials.map((_, idx) => (
                 <button
                   key={idx}
                   onClick={() => setCurrentIndex(idx)}
-                  className={`w-2 h-2 rounded-full transition-all ${
-                    idx === currentIndex ? "w-6 bg-brand-orange" : "bg-white/20 hover:bg-white/40"
-                  }`}
+                  className={`w-2 h-2 rounded-full transition-all ${idx === currentIndex ? "w-6 bg-brand-orange" : "bg-white/20 hover:bg-white/40"
+                    }`}
                 />
               ))}
             </div>

@@ -4,21 +4,21 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { 
-  Wrench, 
-  Truck, 
-  Cpu, 
-  Wind, 
-  Zap, 
-  Sun, 
-  Bus, 
-  Shield, 
-  Activity, 
-  CheckCircle2, 
-  ArrowRight, 
-  ChevronRight, 
-  Filter, 
-  Clock, 
+import {
+  Wrench,
+  Truck,
+  Cpu,
+  Wind,
+  Zap,
+  Sun,
+  Bus,
+  Shield,
+  Activity,
+  CheckCircle2,
+  ArrowRight,
+  ChevronRight,
+  Filter,
+  Clock,
   DollarSign,
   ChevronDown,
   Warehouse,
@@ -74,7 +74,7 @@ const fleetItems = [
     compliance: ["Third Party Certified", "SABIC Compliant"],
     highlight: "Safety Priority"
   },
-  
+
   // Earthmoving
   {
     id: "excavator",
@@ -326,8 +326,8 @@ export default function EquipmentRentalPage() {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const filteredFleet = activeTab === "all" 
-    ? fleetItems 
+  const filteredFleet = activeTab === "all"
+    ? fleetItems
     : fleetItems.filter(item => item.category === activeTab);
 
   // Form submit handler - redirects to WhatsApp
@@ -399,7 +399,7 @@ Please provide availability and pricing details.`;
         <div className="absolute inset-0 z-0">
           <Image
             src="/equipment_rental_hero.png"
-            alt="Prospect KSA Heavy Equipment Fleet"
+            alt=" The Ihtimal Com Heavy Equipment Fleet"
             fill
             className="object-cover opacity-25 select-none scale-105 animate-[subtle-zoom_20s_infinite_alternate]"
             priority
@@ -467,10 +467,10 @@ Please provide availability and pricing details.`;
       <section id="original-intro" className="py-24 bg-white relative overflow-hidden">
         {/* Decorative backdrop */}
         <div className="absolute top-0 left-0 w-full h-full pointer-events-none opacity-[0.02]" style={{ backgroundImage: "radial-gradient(#FF6500 1px, transparent 1px)", backgroundSize: "16px 16px" }} />
-        
+
         <div className="container mx-auto px-4 md:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
+
             {/* Left side: Original text content */}
             <div className="lg:col-span-7 space-y-6">
               <span className="text-brand-orange font-bold tracking-widest text-xs uppercase block">
@@ -479,7 +479,7 @@ Please provide availability and pricing details.`;
               <h2 className="font-outfit text-3xl md:text-4xl font-bold text-brand-navy leading-tight">
                 Equipment Rental Services
               </h2>
-              
+
               {/* Highlight Box containing the welcome text */}
               <div className="border-l-4 border-brand-orange pl-5 py-2">
                 <p className="text-slate-700 text-sm md:text-base leading-relaxed font-medium">
@@ -507,14 +507,14 @@ Please provide availability and pricing details.`;
 
             {/* Right side: Creative image frame collage featuring the exact 2 original images */}
             <div className="lg:col-span-5 relative flex justify-center items-center">
-              
+
               {/* Decorative dotted frame backing */}
               <div className="absolute -top-6 -left-6 w-36 h-36 bg-brand-orange/10 rounded-3xl -z-10" />
               <div className="absolute -bottom-6 -right-6 w-36 h-36 bg-brand-navy-light/10 rounded-3xl -z-10" />
 
               {/* Image Collage Frame */}
               <div className="grid grid-cols-12 gap-4 w-full">
-                
+
                 {/* Image 1: original_1 */}
                 <div className="col-span-8 relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md border border-gray-100 hover:scale-[1.02] transition-transform duration-300">
                   <Image
@@ -564,7 +564,7 @@ Please provide availability and pricing details.`;
               // COST & EFFICIENCY GAINS
             </span>
             <h2 className="font-outfit text-3xl md:text-4xl font-bold text-brand-navy leading-tight">
-              Benefits of Renting with Prospect KSA
+              Benefits of Renting with  The Ihtimal Com
             </h2>
             <p className="text-slate-500 mt-4 leading-relaxed">
               Explore how choosing a boutique equipment rental partner optimizes financial liquidity, safeguards compliance, and cuts operational overhead.
@@ -606,7 +606,7 @@ Please provide availability and pricing details.`;
         <div className="absolute top-1/2 right-0 w-80 h-80 rounded-full bg-brand-orange/5 blur-[100px] pointer-events-none" />
 
         <div className="container mx-auto px-4 md:px-8 relative z-10">
-          
+
           <div className="flex flex-col lg:flex-row lg:items-end justify-between mb-12 gap-6">
             <div className="max-w-2xl">
               <span className="text-brand-orange font-bold tracking-widest text-xs uppercase mb-3 block">
@@ -741,7 +741,7 @@ Please provide availability and pricing details.`;
             <div className="group relative aspect-[3/2] rounded-3xl overflow-hidden shadow-lg border border-white/10 bg-slate-900">
               <Image
                 src="/equipment_original_1.png"
-                alt="Prospect KSA Site Equipment"
+                alt=" The Ihtimal Com Site Equipment"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -755,7 +755,7 @@ Please provide availability and pricing details.`;
             <div className="group relative aspect-[3/2] rounded-3xl overflow-hidden shadow-lg border border-white/10 bg-slate-900">
               <Image
                 src="/equipment_original_2.webp"
-                alt="Prospect KSA Fleet Mobilization"
+                alt=" The Ihtimal Com Fleet Mobilization"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -772,7 +772,7 @@ Please provide availability and pricing details.`;
       <section id="quote-form" className="py-24 relative overflow-hidden bg-brand-gray">
         <div className="container mx-auto px-4 md:px-8">
           <div className="max-w-4xl mx-auto glass-panel rounded-3xl overflow-hidden shadow-xl grid grid-cols-1 lg:grid-cols-12 border border-white/20">
-            
+
             {/* Left Info Panel */}
             <div className="lg:col-span-5 bg-brand-navy text-white p-8 md:p-10 flex flex-col justify-between relative overflow-hidden">
               {/* Background Refinery */}
@@ -785,7 +785,7 @@ Please provide availability and pricing details.`;
                 />
               </div>
               <div className="absolute top-0 right-0 w-44 h-44 rounded-full bg-brand-orange/15 blur-[60px]" />
-              
+
               <div className="relative z-10 space-y-6">
                 <span className="text-brand-orange font-bold tracking-widest text-[10px] uppercase">
                   // RENTAL HOTLINE
@@ -822,7 +822,7 @@ Please provide availability and pricing details.`;
               <div className="relative z-10 mt-12 border-t border-white/10 pt-6">
                 <p className="text-[10px] text-slate-400 uppercase font-bold tracking-widest">Or Call Directly</p>
                 <a href="tel:+966539370929" className="text-brand-orange font-bold text-lg hover:underline transition-all block mt-1">
-                  +966 53 937 0929
+                  +966 133636284
                 </a>
               </div>
             </div>

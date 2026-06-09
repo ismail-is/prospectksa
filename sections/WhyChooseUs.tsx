@@ -63,7 +63,7 @@ export default function WhyChooseUs() {
     <section className="py-24 bg-brand-gray relative">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col md:flex-row gap-16 lg:gap-24">
-          
+
           <div className="md:w-1/3">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -76,7 +76,7 @@ export default function WhyChooseUs() {
                 Why Choose Us?
               </span>
               <h2 className="font-outfit text-4xl md:text-5xl font-bold text-brand-navy mb-6">
-                The Prospect KSA Advantage
+                The  The Ihtimal Com Advantage
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-8">
                 We bring unparalleled expertise and commitment to every project, ensuring highest standards of quality and efficiency.

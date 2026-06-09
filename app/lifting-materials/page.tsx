@@ -583,11 +583,10 @@ export default function LiftingMaterialsPage() {
               <button
                 key={cat.id}
                 onClick={() => setActiveCategory(cat.id)}
-                className={`px-4 py-2 rounded-full text-xs font-bold transition-all cursor-pointer ${
-                  activeCategory === cat.id
+                className={`px-4 py-2 rounded-full text-xs font-bold transition-all cursor-pointer ${activeCategory === cat.id
                     ? "bg-brand-orange text-white shadow-[0_4px_12px_rgba(255,101,0,0.35)]"
                     : "bg-white text-slate-600 hover:text-brand-orange border border-gray-200 hover:border-brand-orange/30"
-                }`}
+                  }`}
               >
                 {cat.title}
               </button>
@@ -675,11 +674,10 @@ export default function LiftingMaterialsPage() {
                 key={product.id}
                 variants={itemVariants}
                 onClick={() => setActiveCategory(product.id)}
-                className={`bg-white rounded-3xl overflow-hidden border transition-all duration-300 cursor-pointer group hover:shadow-lg hover:-translate-y-1 ${
-                  activeCategory === product.id
+                className={`bg-white rounded-3xl overflow-hidden border transition-all duration-300 cursor-pointer group hover:shadow-lg hover:-translate-y-1 ${activeCategory === product.id
                     ? "border-brand-orange/40 shadow-md ring-1 ring-brand-orange/20"
                     : "border-gray-100"
-                }`}
+                  }`}
               >
                 {/* Mini image */}
                 <div className="relative aspect-[16/9] bg-slate-900 overflow-hidden">
@@ -912,7 +910,7 @@ export default function LiftingMaterialsPage() {
                 <p className="text-[10px] text-slate-400 uppercase font-bold tracking-widest mb-1">Or Call Directly</p>
                 <a href="tel:+966539370929" className="text-brand-orange font-bold text-xl hover:underline transition-all flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  +966 53 937 0929
+                  +966 133636284
                 </a>
               </div>
             </div>

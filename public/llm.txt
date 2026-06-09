@@ -1,10 +1,10 @@
-# Prospect KSA
+#  The Ihtimal Com
 
 > Leading provider of heavy equipment rental, Aramco-certified manpower solutions, industrial blasting & coating, and lifting/rigging materials across Saudi Arabia.
 
 ## Overview
 
-Prospect KSA (Ihtimal Company for General Contracting) is a premier industrial services provider based in Al-Khobar, Saudi Arabia. We serve major sectors including oil & gas, petrochemicals, energy, and construction with specialized solutions, high-capacity equipment, and certified professionals.
+ The Ihtimal Com (Ihtimal Company for General Contracting) is a premier industrial services provider based in Al-Khobar, Saudi Arabia. We serve major sectors including oil & gas, petrochemicals, energy, and construction with specialized solutions, high-capacity equipment, and certified professionals.
 
 ---
 
@@ -56,6 +56,6 @@ All paths are relative to `https://prospectksa.com`.
 
 - **Website:** https://prospectksa.com
 - **General Email:** info@prospectksa.com
-- **Phone / WhatsApp:** +966 53 937 0929
+- **Phone / WhatsApp:** +966 133636284 
 - **Address:** Al-Khobar, Eastern Province, Kingdom of Saudi Arabia
 - **Parent/Affiliate:** [Prospect International](https://prospectintl.com)

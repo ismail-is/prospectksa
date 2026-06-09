@@ -4,17 +4,17 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { 
-  Phone, 
-  Mail, 
-  MapPin, 
-  Clock, 
-  Shield, 
-  ArrowRight, 
-  ChevronDown, 
-  CheckCircle2, 
-  MessageSquare, 
-  ThumbsUp, 
+import {
+  Phone,
+  Mail,
+  MapPin,
+  Clock,
+  Shield,
+  ArrowRight,
+  ChevronDown,
+  CheckCircle2,
+  MessageSquare,
+  ThumbsUp,
   MapPinIcon
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -23,7 +23,7 @@ const contactCards = [
   {
     icon: Phone,
     title: "Call Us",
-    detail: "+966 53 937 0929",
+    detail: "+966 133636284 ",
     subtext: "Sun - Thu 8:00 AM - 6:00 PM",
     href: "tel:+966539370929",
   },
@@ -44,7 +44,7 @@ const contactCards = [
   {
     icon: Clock,
     title: "24/7 Support",
-    detail: "+966 53 937 0929",
+    detail: "+966 133636284 ",
     subtext: "Emergency support available",
     href: "tel:+966539370929",
   },
@@ -86,7 +86,7 @@ export default function ContactPage() {
     e.preventDefault();
     setLoading(true);
 
-    const formattedMessage = `*New Inquiry from Prospect KSA Website*
+    const formattedMessage = `*New Inquiry from  The Ihtimal Com Website*
 ----------------------------------
 *Name:* ${formData.name}
 *Company:* ${formData.company}
@@ -151,7 +151,7 @@ export default function ContactPage() {
           <h1 className="font-outfit text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-[-0.03em] mb-2">
             Contact Us
           </h1>
-          <motion.div 
+          <motion.div
             initial={{ width: 0 }}
             animate={{ width: 80 }}
             transition={{ delay: 0.5, duration: 0.8, ease: "easeOut" }}
@@ -207,7 +207,7 @@ export default function ContactPage() {
       <section id="form" className="py-24 px-4 md:px-8">
         <div className="container mx-auto max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-            
+
             {/* Left side Message Form with modern inputs */}
             <div className="lg:col-span-7 bg-white rounded-3xl p-8 md:p-10 border border-slate-100 shadow-[0_20px_40px_rgba(11,25,44,0.02)]">
               <div className="mb-8">
@@ -237,7 +237,7 @@ export default function ContactPage() {
                       Message Sent Successfully!
                     </h4>
                     <p className="text-slate-600 text-sm max-w-sm mb-6 leading-relaxed">
-                      Thank you for contacting Prospect KSA. Our consultants will review your request and get back to you within 24 hours.
+                      Thank you for contacting  The Ihtimal Com. Our consultants will review your request and get back to you within 24 hours.
                     </p>
                     <button
                       onClick={() => setFormSubmitted(false)}
@@ -399,7 +399,7 @@ export default function ContactPage() {
 
               <div className="relative z-20">
                 <span className="text-brand-orange font-bold tracking-widest text-[9px] uppercase mb-3 block">
-                  Why Connect With Prospect KSA?
+                  Why Connect With  The Ihtimal Com?
                 </span>
                 <h3 className="font-outfit text-3xl font-extrabold mb-4 leading-tight">
                   Delivering Excellence Through Every Connection
@@ -431,7 +431,7 @@ export default function ContactPage() {
               {/* Bottom tag */}
               <div className="relative z-20 border-t border-white/10 pt-6 mt-8">
                 <span className="text-[9px] font-mono tracking-widest text-slate-400 uppercase">
-                  PROSPECT KSA // INDUSTRIAL SERVICES
+                  The Ihtimal Com // INDUSTRIAL SERVICES
                 </span>
               </div>
             </div>
@@ -468,7 +468,7 @@ export default function ContactPage() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="absolute inset-0 w-full h-full"
-              title="Prospect KSA Location (Al Jubail)"
+              title=" The Ihtimal Com Location (Al Jubail)"
             />
 
             {/* Floating Address Card */}
@@ -480,7 +480,7 @@ export default function ContactPage() {
                 </span>
               </div>
               <h4 className="font-outfit font-extrabold text-brand-navy text-base md:text-lg mb-2">
-                Prospect KSA (Ihtimal Company)
+                Ihtimal Company
               </h4>
               <p className="text-slate-500 text-xs leading-relaxed mb-4 font-light">
                 Hilton Garden Inn Road, Al Jubail, Eastern Province, Saudi Arabia
@@ -503,7 +503,7 @@ export default function ContactPage() {
       </section>
 
       {/* 5. CTA SECTION (BOTTOM) */}
-     
+
     </main>
   );
 }

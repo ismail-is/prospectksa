@@ -39,7 +39,7 @@ export default function About() {
     <section id="about" className="py-24 bg-white relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-8 items-center">
-          
+
           {/* Left Side Content */}
           <motion.div
             variants={containerVariants}
@@ -51,16 +51,16 @@ export default function About() {
             <motion.span variants={itemVariants} className="text-brand-orange font-bold tracking-wider text-xs md:text-sm uppercase mb-4 block">
               About Us
             </motion.span>
-            
+
             <motion.h2 variants={itemVariants} className="font-outfit text-4xl md:text-5xl font-bold text-brand-navy mb-6">
               Delivering Excellence <br className="hidden md:block" />
               With Commitment
             </motion.h2>
-            
+
             <motion.p variants={itemVariants} className="text-gray-600 text-lg mb-8 leading-relaxed">
-              Prospect KSA (Ihtimal Company) is a trusted partner in Saudi Arabia's industrial growth. We provide tailored solutions with unmatched safety, quality and reliability.
+              Ihtimal Company is a trusted partner in Saudi Arabia's industrial growth. We provide tailored solutions with unmatched safety, quality and reliability.
             </motion.p>
-            
+
             <motion.div variants={containerVariants} className="flex flex-col gap-4 mb-10">
               {bulletPoints.map((point, index) => (
                 <motion.div key={index} variants={itemVariants} className="flex items-center gap-3">
@@ -69,7 +69,7 @@ export default function About() {
                 </motion.div>
               ))}
             </motion.div>
-            
+
             <motion.div variants={itemVariants}>
               <Link
                 href="/about"
@@ -98,7 +98,7 @@ export default function About() {
               />
               <div className="absolute inset-0 bg-brand-navy/10 mix-blend-overlay" />
             </div>
-            
+
             {/* Secondary offset block (simulating collage) */}
             <div className="absolute bottom-10 left-0 w-1/2 h-1/2 rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
               <Image

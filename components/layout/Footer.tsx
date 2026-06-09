@@ -89,8 +89,8 @@ export default function Footer() {
             <Link href="/" className="inline-block group">
               <div className="relative w-[160px] h-[56px]">
                 <Image
-                   src="/Prospect Logo.webp"
-                  alt="Prospect KSA Logo"
+                  src="/images/logo.webp"
+                  alt=" The Ihtimal Com Logo"
                   fill
                   className="object-contain object-center bg-white rounded-[10px] "
                   sizes="160px"
@@ -104,7 +104,7 @@ export default function Footer() {
             </p>
 
             {/* Certifications */}
-           
+
 
             {/* Social / Quick Contact Icons */}
             <div className="flex items-center gap-3">
@@ -212,7 +212,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="text-white font-semibold text-xs block">Phone Support</span>
-                <span className="text-xs text-slate-400 group-hover:text-brand-orange transition-colors">+966 53 937 0929</span>
+                <span className="text-xs text-slate-400 group-hover:text-brand-orange transition-colors">+966 133636284 </span>
               </div>
             </a>
 
@@ -236,7 +236,7 @@ export default function Footer() {
           <div className="text-center md:text-left space-y-1">
             <p className="text-slate-400 text-xs">
               © {currentYear}{" "}
-              <span className="text-white font-semibold">PROSPECT KSA</span> · Ihtimal Company for General Contracting. All Rights Reserved.
+              Ihtimal Company for General Contracting. All Rights Reserved.
             </p>
             {/* <p className="text-[11px] text-slate-500 font-mono">
               Commercial Registration (CR): <span className="text-slate-400">7030721448</span>

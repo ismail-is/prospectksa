@@ -86,10 +86,10 @@ export default function Navbar() {
           <Link href="/" className="flex items-center z-50 relative">
             <div className="relative w-36 h-12 md:w-44 md:h-14">
               <Image
-                src="/Prospect Logo.webp"
-                alt="Prospect KSA Logo"
+                src="/images/logo.webp"
+                alt=" The Ihtimal Com Logo"
                 fill
-                className="object-contain object-center bg-white rounded-[8px]"
+                className="object-contain object-center bg-white rounded-[8px] p-1"
                 priority
               />
             </div>
@@ -115,10 +115,10 @@ export default function Navbar() {
                     <button
                       className={cn(
                         "relative px-4 py-2 text-sm font-semibold transition-colors duration-300 flex items-center gap-1.5 cursor-pointer outline-none",
-                        hoveredLink === link.name 
-                          ? "text-brand-orange" 
-                          : scrolled 
-                            ? "text-brand-navy" 
+                        hoveredLink === link.name
+                          ? "text-brand-orange"
+                          : scrolled
+                            ? "text-brand-navy"
                             : "text-white"
                       )}
                     >
@@ -250,10 +250,10 @@ export default function Navbar() {
                   onMouseLeave={() => setHoveredLink(null)}
                   className={cn(
                     "relative px-4 py-2 text-sm font-semibold transition-colors duration-300",
-                    hoveredLink === link.name 
-                      ? "text-brand-orange" 
-                      : scrolled 
-                        ? "text-brand-navy" 
+                    hoveredLink === link.name
+                      ? "text-brand-orange"
+                      : scrolled
+                        ? "text-brand-navy"
                         : "text-white"
                   )}
                 >
@@ -291,9 +291,9 @@ export default function Navbar() {
               )}>
                 <Phone className="w-4 h-4" />
               </div>
-              <span className="text-sm font-bold hidden xl:block">+966 53 937 0929</span>
+              <span className="text-sm font-bold hidden xl:block">+966 133636284 </span>
             </a>
-            
+
             <Link
               href="/contact"
               className="bg-brand-orange hover:bg-brand-orange-dark text-white px-7 py-2.5 rounded-full text-sm font-bold transition-all shadow-[0_4px_14px_0_rgba(255,101,0,0.39)] hover:shadow-[0_6px_20px_rgba(255,101,0,0.23)] hover:-translate-y-0.5 flex items-center gap-2 group"
@@ -307,8 +307,8 @@ export default function Navbar() {
           <button
             className={cn(
               "lg:hidden z-50 w-10 h-10 flex items-center justify-center rounded-full transition-colors",
-              scrolled 
-                ? "text-brand-navy bg-brand-gray hover:bg-brand-orange/10 hover:text-brand-orange" 
+              scrolled
+                ? "text-brand-navy bg-brand-gray hover:bg-brand-orange/10 hover:text-brand-orange"
                 : "text-white bg-white/10 hover:bg-white/20"
             )}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -338,8 +338,8 @@ export default function Navbar() {
               className="fixed top-0 right-0 bottom-0 w-[85vw] max-w-sm bg-white z-50 lg:hidden flex flex-col shadow-2xl border-l border-gray-100"
             >
               <div className="p-6 pb-0 flex justify-start border-b border-gray-50 mb-6">
-                 {/* Empty header area since X button is in navbar, but we keep padding */}
-                 <div className="h-16" />
+                {/* Empty header area since X button is in navbar, but we keep padding */}
+                <div className="h-16" />
               </div>
 
               <div className="flex flex-col px-6 gap-2 overflow-y-auto max-h-[60vh]">
@@ -360,7 +360,7 @@ export default function Navbar() {
                           <span>{link.name}</span>
                           <ChevronDown className={cn("w-6 h-6 transition-transform duration-300 text-slate-400", mobileServicesOpen && "rotate-180 text-brand-orange")} />
                         </button>
-                        
+
                         <AnimatePresence initial={false}>
                           {mobileServicesOpen && (
                             <motion.div
@@ -423,7 +423,7 @@ export default function Navbar() {
                     </div>
                     <div>
                       <p className="text-xs text-gray-500 font-medium">Call Us Now</p>
-                      <p className="font-bold text-lg">+966 53 937 0929</p>
+                      <p className="font-bold text-lg">+966 133636284 </p>
                     </div>
                   </a>
                   <Link

@@ -182,17 +182,17 @@ const staggerContainer = {
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-brand-gray text-slate-800 selection:bg-brand-orange selection:text-white overflow-hidden">
-      
+
       {/* ── 1. HERO SECTION ─────────────────────────────────────────────────── */}
       <section className="relative pt-40 pb-28 bg-white overflow-hidden border-b border-gray-100">
         {/* Abstract background graphics */}
         <div className="absolute inset-0 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:32px_32px] opacity-40 pointer-events-none" />
         <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-brand-orange/5 blur-[120px] pointer-events-none" />
         <div className="absolute -bottom-20 -left-20 w-[400px] h-[400px] rounded-full bg-brand-navy/5 blur-[100px] pointer-events-none" />
-        
+
         <div className="container mx-auto px-4 md:px-8 relative z-10">
           {/* Breadcrumb */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -15 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
@@ -205,21 +205,21 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
             {/* Left Content */}
-            <motion.div 
+            <motion.div
               initial="initial"
               animate="whileInView"
               variants={staggerContainer}
               className="lg:col-span-6 space-y-8"
             >
-              <motion.span 
+              <motion.span
                 variants={fadeInUp}
                 className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-orange/10 text-brand-orange font-extrabold tracking-widest text-[10px] uppercase"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-orange animate-pulse" />
                 Who We Are
               </motion.span>
-              
-              <motion.h1 
+
+              <motion.h1
                 variants={fadeInUp}
                 className="font-outfit text-4xl sm:text-5xl lg:text-6xl font-black text-brand-navy leading-tight tracking-tight"
               >
@@ -228,16 +228,16 @@ export default function AboutPage() {
                   Across Saudi Arabia
                 </span>
               </motion.h1>
-              
-              <motion.p 
+
+              <motion.p
                 variants={fadeInUp}
                 className="text-slate-600 text-sm md:text-base leading-relaxed max-w-xl"
               >
-                Prospect KSA (IHTIMAL Contracting Est.) is a premier industrial partner delivering certified manpower, advanced heavy equipment rentals, and specialized industrial services with absolute safety, quality compliance, and operational reliability across the Kingdom.
+                The Ihtimal Com (IHTIMAL Contracting Est.) is a premier industrial partner delivering certified manpower, advanced heavy equipment rentals, and specialized industrial services with absolute safety, quality compliance, and operational reliability across the Kingdom.
               </motion.p>
 
               {/* Grid indicators */}
-              <motion.div 
+              <motion.div
                 variants={fadeInUp}
                 className="grid grid-cols-2 gap-6 pt-8 border-t border-slate-100"
               >
@@ -261,7 +261,7 @@ export default function AboutPage() {
             </motion.div>
 
             {/* Right Image */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
@@ -270,7 +270,7 @@ export default function AboutPage() {
               {/* Decorative backgrounds */}
               <div className="absolute -top-6 -left-6 w-32 h-32 bg-[radial-gradient(#ff6500_1.5px,transparent_1.5px)] [background-size:12px_12px] opacity-40 pointer-events-none" />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[radial-gradient(#0b192c_1.5px,transparent_1.5px)] [background-size:12px_12px] opacity-30 pointer-events-none" />
-              
+
               <div className="relative aspect-[4/3] rounded-[32px] overflow-hidden shadow-[0_20px_50px_rgba(11,25,44,0.15)] border-4 border-white bg-slate-900 group">
                 <Image
                   src="/industrial_worker.png"
@@ -280,9 +280,9 @@ export default function AboutPage() {
                   priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/60 via-brand-navy/10 to-transparent" />
-                
+
                 {/* Floating compliance label */}
-                <motion.div 
+                <motion.div
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.5, duration: 0.6 }}
@@ -306,13 +306,13 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
- 
+
       {/* ── 2. FLOATING STATS DECK ─────────────────────────────────────────── */}
       <section className="relative -mt-10 z-20">
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {stats.map((stat, i) => (
-              <motion.div 
+              <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -324,7 +324,7 @@ export default function AboutPage() {
                   <div className="w-11 h-11 rounded-xl bg-brand-navy/5 flex items-center justify-center group-hover:bg-brand-orange/10 transition-colors">
                     <stat.icon className="w-5 h-5 text-brand-navy group-hover:text-brand-orange transition-colors" />
                   </div>
-                  <span className="text-2xl font-black text-slate-100 group-hover:text-brand-orange/15 transition-colors">0{i+1}</span>
+                  <span className="text-2xl font-black text-slate-100 group-hover:text-brand-orange/15 transition-colors">0{i + 1}</span>
                 </div>
                 <div>
                   <div className="font-outfit font-black text-3xl sm:text-4xl text-brand-navy tracking-tight mb-1 group-hover:text-brand-orange transition-colors">
@@ -346,21 +346,21 @@ export default function AboutPage() {
       {/* ── 3. EXECUTIVE MESSAGES ───────────────────────────────────────────── */}
       <section className="py-28 bg-white border-b border-gray-100">
         <div className="container mx-auto px-4 md:px-8 space-y-28">
-          
+
           {/* Chairman's Message Row */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
             {/* Left: Portrait frame with decorative accents */}
-            <motion.div 
+            <motion.div
               {...fadeInUp}
               className="lg:col-span-5 relative"
             >
               {/* Floating decorative elements */}
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-[radial-gradient(#ff6500_1.5px,transparent_1.5px)] [background-size:10px_10px] opacity-40 pointer-events-none" />
               <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-brand-orange/10 rounded-full blur-2xl pointer-events-none" />
-              
+
               {/* Gold/Orange side accent bar */}
               <div className="absolute -left-3 top-10 bottom-10 w-1.5 bg-brand-orange rounded-full z-10 hidden sm:block" />
-              
+
               <div className="relative aspect-[3/4] sm:aspect-[4/5] lg:aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-50 bg-slate-900 group">
                 <Image
                   src="/images/chairman.webp"
@@ -376,7 +376,7 @@ export default function AboutPage() {
             </motion.div>
 
             {/* Right: Message Content */}
-            <motion.div 
+            <motion.div
               {...fadeInUp}
               className="lg:col-span-7 space-y-6 relative"
             >
@@ -384,7 +384,7 @@ export default function AboutPage() {
               <div className="absolute -top-10 -right-6 font-serif text-[180px] text-slate-100 select-none pointer-events-none leading-none opacity-40 font-bold">
                 ”
               </div>
-              
+
               <div className="space-y-4 relative z-10">
                 <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-orange/10 text-brand-orange font-extrabold tracking-widest text-[10px] uppercase">
                   <span className="w-1.5 h-1.5 rounded-full bg-brand-orange" />
@@ -421,7 +421,7 @@ export default function AboutPage() {
           {/* Director's Message Row */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center border-t border-slate-100 pt-28">
             {/* Left: Message Content - Rendered first on desktop, second on mobile */}
-            <motion.div 
+            <motion.div
               {...fadeInUp}
               className="lg:col-span-7 space-y-6 order-2 lg:order-1 relative"
             >
@@ -429,7 +429,7 @@ export default function AboutPage() {
               <div className="absolute -top-10 -left-6 font-serif text-[180px] text-slate-100 select-none pointer-events-none leading-none opacity-40 font-bold">
                 “
               </div>
-              
+
               <div className="space-y-4 relative z-10">
                 <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-navy/5 text-brand-navy font-extrabold tracking-widest text-[10px] uppercase">
                   <span className="w-1.5 h-1.5 rounded-full bg-brand-navy" />
@@ -447,7 +447,7 @@ export default function AboutPage() {
                 <p>We believe that trust and long-term relationships are the foundation of sustainable success. Through professionalism, integrity, and teamwork, we strive to exceed expectations and deliver value to our clients and stakeholders.</p>
                 <p>As we move forward, IHTIMAL Company remains focused on expanding its capabilities and supporting the ambitious goals of Saudi Vision 2030, contributing to a stronger and more sustainable future.</p>
                 <p>I extend my sincere appreciation to our clients, partners, and employees for their continued trust and support.</p>
-                
+
                 {/* Visual callout statement */}
                 <div className="border-l-4 border-brand-orange bg-brand-gray rounded-r-2xl p-5 mt-6 not-italic">
                   <p className="font-black text-brand-navy text-sm sm:text-base uppercase tracking-wide">
@@ -470,14 +470,14 @@ export default function AboutPage() {
             </motion.div>
 
             {/* Right: Portrait frame - Rendered second on desktop, first on mobile */}
-            <motion.div 
+            <motion.div
               {...fadeInUp}
               className="lg:col-span-5 order-1 lg:order-2 relative"
             >
               {/* Floating decorative elements */}
               <div className="absolute -top-6 -right-6 w-24 h-24 bg-[radial-gradient(#0b192c_1.5px,transparent_1.5px)] [background-size:10px_10px] opacity-30 pointer-events-none" />
               <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-brand-navy/10 rounded-full blur-2xl pointer-events-none" />
-              
+
               {/* Navy side accent bar */}
               <div className="absolute -right-3 top-10 bottom-10 w-1.5 bg-brand-navy rounded-full z-10 hidden sm:block" />
 
@@ -503,9 +503,9 @@ export default function AboutPage() {
       <section className="py-28 bg-brand-gray relative overflow-hidden">
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            
+
             {/* Vision Card - Dark theme with Riyadh image overlay */}
-            <motion.div 
+            <motion.div
               {...fadeInUp}
               className="relative rounded-3xl overflow-hidden shadow-lg border border-brand-navy bg-brand-navy text-white p-8 sm:p-10 flex flex-col justify-between min-h-[380px] group"
             >
@@ -533,7 +533,7 @@ export default function AboutPage() {
             </motion.div>
 
             {/* Mission Card */}
-            <motion.div 
+            <motion.div
               {...fadeInUp}
               className="bg-white rounded-3xl shadow-sm border border-slate-100 p-8 sm:p-10 flex flex-col justify-between min-h-[380px] hover:shadow-md transition-shadow"
             >
@@ -561,7 +561,7 @@ export default function AboutPage() {
             </motion.div>
 
             {/* Core Values Card */}
-            <motion.div 
+            <motion.div
               {...fadeInUp}
               className="bg-white rounded-3xl shadow-sm border border-slate-100 p-8 sm:p-10 flex flex-col justify-between min-h-[380px] hover:shadow-md transition-shadow"
             >
@@ -593,9 +593,9 @@ export default function AboutPage() {
       <section className="py-28 bg-white border-b border-gray-100">
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            
+
             {/* Safety Policy */}
-            <motion.div 
+            <motion.div
               {...fadeInUp}
               className="grid grid-cols-1 md:grid-cols-2 bg-brand-gray border border-slate-100 rounded-[32px] overflow-hidden shadow-xs hover:shadow-md transition-shadow group"
             >
@@ -629,7 +629,7 @@ export default function AboutPage() {
             </motion.div>
 
             {/* Quality Management System (QMS) */}
-            <motion.div 
+            <motion.div
               {...fadeInUp}
               className="grid grid-cols-1 md:grid-cols-2 bg-brand-gray border border-slate-100 rounded-[32px] overflow-hidden shadow-xs hover:shadow-md transition-shadow group"
             >
@@ -685,7 +685,7 @@ export default function AboutPage() {
 
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 relative z-10">
               {timeline.map((item, idx) => (
-                <motion.div 
+                <motion.div
                   key={idx}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -721,13 +721,13 @@ export default function AboutPage() {
               // VALUE PROPOSITION
             </span>
             <h2 className="font-outfit text-3xl md:text-4xl font-bold text-brand-navy leading-tight">
-              Why Partner with Prospect KSA?
+              Why Partner with  The Ihtimal Com?
             </h2>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {partnerReasons.map((reason, idx) => (
-              <motion.div 
+              <motion.div
                 key={idx}
                 initial={{ opacity: 0, y: 15 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -771,7 +771,7 @@ export default function AboutPage() {
               { icon: Workflow, name: "Manufacturing" },
               { icon: Activity, name: "Maintenance" }
             ].map((item, idx) => (
-              <motion.div 
+              <motion.div
                 key={idx}
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -840,9 +840,9 @@ export default function AboutPage() {
       {/* ── 9. CALL TO ACTION (CTA) ─────────────────────────────────────────── */}
       <section className="py-24 bg-brand-navy text-white relative overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[300px] bg-brand-orange/10 blur-[120px] pointer-events-none" />
-        
+
         <div className="container mx-auto px-4 md:px-8 relative z-10 text-center max-w-4xl">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -853,20 +853,20 @@ export default function AboutPage() {
               Let's Build Something Great Together!
             </h2>
             <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-              Partner with Prospect KSA (IHTIMAL Est.) for reliable, safe, and high-quality industrial support solutions. Speak with our Jubail operations team for quick deployments.
+              Partner with  The Ihtimal Com (IHTIMAL Est.) for reliable, safe, and high-quality industrial support solutions. Speak with our Jubail operations team for quick deployments.
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-12 text-left">
             {[
-              { icon: Phone, title: "Call Support", detail: "+966 53 937 0929", href: "tel:+966539370929" },
+              { icon: Phone, title: "Call Support", detail: "+966 133636284 ", href: "tel:+966539370929" },
               { icon: Mail, title: "Inquiries Email", detail: "info@prospectksa.com", href: "mailto:info@prospectksa.com" },
               { icon: MapPin, title: "HQ Address", detail: "Hilton District, Jubail, KSA", href: "https://www.google.com/maps/search/?api=1&query=Hilton+Garden+Inn+Al+Jubail" }
             ].map((card, idx) => (
-              <a 
-                href={card.href} 
-                target={card.href.startsWith("http") ? "_blank" : "_self"} 
-                key={idx} 
+              <a
+                href={card.href}
+                target={card.href.startsWith("http") ? "_blank" : "_self"}
+                key={idx}
                 className="bg-white/5 border border-white/10 rounded-3xl p-6 hover:border-brand-orange/40 hover:bg-white/10 transition-all flex items-start gap-4 group"
               >
                 <div className="w-11 h-11 rounded-xl bg-brand-orange flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
@@ -880,7 +880,7 @@ export default function AboutPage() {
             ))}
           </div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}

@@ -5,18 +5,18 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { 
-  Paintbrush, 
-  ShieldAlert, 
-  Activity, 
-  Zap, 
-  CheckCircle2, 
-  ArrowRight, 
-  ChevronRight, 
-  Clock, 
-  Shield, 
-  Flame, 
-  Layers, 
+import {
+  Paintbrush,
+  ShieldAlert,
+  Activity,
+  Zap,
+  CheckCircle2,
+  ArrowRight,
+  ChevronRight,
+  Clock,
+  Shield,
+  Flame,
+  Layers,
   Wrench,
   Search,
   ChevronDown,
@@ -243,7 +243,7 @@ Please provide specifications, application procedures, and quotes.`;
       <section id="overview" className="py-24 bg-white relative overflow-hidden">
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
+
             {/* Left side: Overview content */}
             <div className="lg:col-span-7 space-y-6">
               <span className="text-brand-orange font-bold tracking-widest text-xs uppercase block">
@@ -252,7 +252,7 @@ Please provide specifications, application procedures, and quotes.`;
               <h2 className="font-outfit text-3xl md:text-4xl font-bold text-brand-navy leading-tight">
                 Refinery & Plant Blasting Method Statement
               </h2>
-              
+
               <div className="border-l-4 border-brand-orange pl-5 py-2">
                 <p className="text-slate-700 text-sm md:text-base leading-relaxed font-medium">
                   This Method Statement is described to carry out abrasive blasting and coating works in shop and touch-up/repair works of weld joints in the field for Piping at Buildings, plants and refinery.
@@ -286,7 +286,7 @@ Please provide specifications, application procedures, and quotes.`;
               <div className="absolute -bottom-6 -right-6 w-36 h-36 bg-brand-navy-light/5 rounded-3xl -z-10" />
 
               <div className="grid grid-cols-12 gap-4 w-full">
-                
+
                 {/* Image 1: corrocoat */}
                 <div className="col-span-8 relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md border border-gray-100 hover:scale-[1.02] transition-transform duration-300">
                   <Image
@@ -329,7 +329,7 @@ Please provide specifications, application procedures, and quotes.`;
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] rounded-full bg-brand-orange/5 blur-[120px] pointer-events-none" />
 
         <div className="container mx-auto px-4 md:px-8 relative z-10">
-          
+
           <div className="text-center max-w-4xl mx-auto mb-16">
             <span className="text-brand-orange font-bold tracking-widest text-xs uppercase mb-3 block">
               // UNDERGROUND PIPELINE RISK
@@ -342,7 +342,7 @@ Please provide specifications, application procedures, and quotes.`;
             </p>
           </div>
 
-          <motion.div 
+          <motion.div
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
@@ -391,15 +391,15 @@ Please provide specifications, application procedures, and quotes.`;
       {/* 4. PROCESSES DETAILED SECTION: BLASTING OPERATIONS & CHARGE TECH */}
       <section className="py-24 bg-white relative overflow-hidden">
         <div className="container mx-auto px-4 md:px-8 relative z-10">
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            
+
             {/* Abrasive Blasting */}
             <div className="bg-brand-gray rounded-3xl p-8 border border-gray-100 flex flex-col justify-between hover:shadow-md transition-shadow duration-300 group">
               <div>
                 <span className="text-[10px] font-mono tracking-widest text-brand-orange font-bold uppercase block mb-3">// SURFACE PREPARATION</span>
                 <h3 className="font-outfit text-2xl font-bold text-brand-navy mb-4">Abrasive Blasting Operations</h3>
-                
+
                 {/* Image */}
                 <div className="relative aspect-[2/1] w-full rounded-2xl overflow-hidden mb-6 bg-slate-900 border border-gray-200">
                   <Image
@@ -476,7 +476,7 @@ Please provide specifications, application procedures, and quotes.`;
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-brand-orange/10 blur-[100px] pointer-events-none" />
 
         <div className="container mx-auto px-4 md:px-8 relative z-10">
-          
+
           <div className="text-center max-w-2xl mx-auto mb-16">
             <span className="text-brand-orange font-bold tracking-widest text-xs uppercase mb-3 block">
               // COATING PORTFOLIO
@@ -550,7 +550,7 @@ Please provide specifications, application procedures, and quotes.`;
       <section id="quote-form" className="py-24 relative overflow-hidden bg-brand-gray border-t border-gray-100">
         <div className="container mx-auto px-4 md:px-8">
           <div className="max-w-4xl mx-auto glass-panel rounded-3xl overflow-hidden shadow-xl grid grid-cols-1 lg:grid-cols-12 border border-white/20">
-            
+
             {/* Left Info Panel */}
             <div className="lg:col-span-5 bg-brand-navy text-white p-8 md:p-10 flex flex-col justify-between relative overflow-hidden">
               {/* Background refinery */}
@@ -563,7 +563,7 @@ Please provide specifications, application procedures, and quotes.`;
                 />
               </div>
               <div className="absolute top-0 right-0 w-44 h-44 rounded-full bg-brand-orange/15 blur-[60px]" />
-              
+
               <div className="relative z-10 space-y-6">
                 <span className="text-brand-orange font-bold tracking-widest text-[10px] uppercase">
                   // ESTIMATING DESK
@@ -600,7 +600,7 @@ Please provide specifications, application procedures, and quotes.`;
               <div className="relative z-10 mt-12 border-t border-white/10 pt-6">
                 <p className="text-[10px] text-slate-400 uppercase font-bold tracking-widest">Or Call Directly</p>
                 <a href="tel:+966539370929" className="text-brand-orange font-bold text-lg hover:underline transition-all block mt-1">
-                  +966 53 937 0929
+                  +966 133636284
                 </a>
               </div>
             </div>

@@ -4,20 +4,20 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { 
-  Users, 
-  UserCheck, 
-  Layers, 
-  Activity, 
-  ShieldAlert, 
-  ClipboardCheck, 
-  Briefcase, 
-  Database, 
-  Search, 
-  CheckCircle2, 
-  ArrowRight, 
-  ChevronRight, 
-  Clock, 
+import {
+  Users,
+  UserCheck,
+  Layers,
+  Activity,
+  ShieldAlert,
+  ClipboardCheck,
+  Briefcase,
+  Database,
+  Search,
+  CheckCircle2,
+  ArrowRight,
+  ChevronRight,
+  Clock,
   Building2,
   HardHat,
   HeartHandshake,
@@ -98,59 +98,59 @@ const recruitmentStrengths = [
 
 // Active Project Roles with their actual downloaded image references!
 const activeProjectRoles = [
-  { 
-    name: "Quality Inspector", 
-    cat: "Technical QA/QC", 
-    spec: "Aramco Certified CSWIP / BGAS", 
-    image: "/manpower/whatsapp_image_2023-10-17_at_16.29.07_edc174f8.jpg" 
+  {
+    name: "Quality Inspector",
+    cat: "Technical QA/QC",
+    spec: "Aramco Certified CSWIP / BGAS",
+    image: "/manpower/whatsapp_image_2023-10-17_at_16.29.07_edc174f8.jpg"
   },
-  { 
-    name: "Safety Toolbox Leader", 
-    cat: "HSE Supervision", 
-    spec: "NEBOSH / Aramco Approved", 
-    image: "/manpower/whatsapp_image_2023-10-17_at_16.34.25_eae51e98.jpg" 
+  {
+    name: "Safety Toolbox Leader",
+    cat: "HSE Supervision",
+    spec: "NEBOSH / Aramco Approved",
+    image: "/manpower/whatsapp_image_2023-10-17_at_16.34.25_eae51e98.jpg"
   },
-  { 
-    name: "Housekeeping Supervisor", 
-    cat: "Civil & Site Maintenance", 
-    spec: "Site Safety Certified Coordinator", 
-    image: "/manpower/whatsapp_image_2023-10-17_at_16.44.33_6fed40db.jpg" 
+  {
+    name: "Housekeeping Supervisor",
+    cat: "Civil & Site Maintenance",
+    spec: "Site Safety Certified Coordinator",
+    image: "/manpower/whatsapp_image_2023-10-17_at_16.44.33_6fed40db.jpg"
   },
-  { 
-    name: "Manual Jack Hammer Operator", 
-    cat: "Demolition & Excavation", 
-    spec: "Heavy Machinery Certified", 
-    image: "/manpower/whatsapp_image_2023-10-17_at_16.47.37_5c7c5a7f.jpg" 
+  {
+    name: "Manual Jack Hammer Operator",
+    cat: "Demolition & Excavation",
+    spec: "Heavy Machinery Certified",
+    image: "/manpower/whatsapp_image_2023-10-17_at_16.47.37_5c7c5a7f.jpg"
   },
-  { 
-    name: "Blaster", 
-    cat: "Surface Preparation", 
-    spec: "TUV Certified Abrasive Blasting", 
-    image: "/manpower/whatsapp_image_2023-10-17_at_16.55.37_17314615.jpg" 
+  {
+    name: "Blaster",
+    cat: "Surface Preparation",
+    spec: "TUV Certified Abrasive Blasting",
+    image: "/manpower/whatsapp_image_2023-10-17_at_16.55.37_17314615.jpg"
   },
-  { 
-    name: "Rigger", 
-    cat: "Heavy Lifting Ops", 
-    spec: "TUV / Aramco Level I, II, III", 
-    image: "/manpower/whatsapp_image_2023-10-17_at_16.56.18_b1bfb437.jpg" 
+  {
+    name: "Rigger",
+    cat: "Heavy Lifting Ops",
+    spec: "TUV / Aramco Level I, II, III",
+    image: "/manpower/whatsapp_image_2023-10-17_at_16.56.18_b1bfb437.jpg"
   },
-  { 
-    name: "Coating Applicator", 
-    cat: "Industrial Painting", 
-    spec: "NACE Compliant Coating Painter", 
-    image: "/manpower/whatsapp_image_2023-10-17_at_16.57.16_42fd6a6d.jpg" 
+  {
+    name: "Coating Applicator",
+    cat: "Industrial Painting",
+    spec: "NACE Compliant Coating Painter",
+    image: "/manpower/whatsapp_image_2023-10-17_at_16.57.16_42fd6a6d.jpg"
   },
-  { 
-    name: "Side Boom Operator", 
-    cat: "Pipeline Logistics", 
-    spec: "Heavy Crawler Certified Operator", 
-    image: "/manpower/whatsapp_image_2023-10-17_at_16.58.20_f30ad4e6.jpg" 
+  {
+    name: "Side Boom Operator",
+    cat: "Pipeline Logistics",
+    spec: "Heavy Crawler Certified Operator",
+    image: "/manpower/whatsapp_image_2023-10-17_at_16.58.20_f30ad4e6.jpg"
   },
-  { 
-    name: "Construction Worker", 
-    cat: "Site Operations", 
-    spec: "Refinery Access Cleared Crew", 
-    image: "/manpower/whatsapp_image_2023-10-17_at_16.34.25_eae51e98.jpg" 
+  {
+    name: "Construction Worker",
+    cat: "Site Operations",
+    spec: "Refinery Access Cleared Crew",
+    image: "/manpower/whatsapp_image_2023-10-17_at_16.34.25_eae51e98.jpg"
   }
 ];
 
@@ -168,7 +168,7 @@ export default function ManpowerServicesPage() {
   const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
 
-  const filteredRoles = activeProjectRoles.filter(role => 
+  const filteredRoles = activeProjectRoles.filter(role =>
     role.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
     role.cat.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -241,7 +241,7 @@ Please provide CV availability, rates, and mobilization times.`;
         <div className="absolute inset-0 z-0">
           <Image
             src="/manpower_hero.png"
-            alt="Prospect KSA Manpower Services"
+            alt=" The Ihtimal Com Manpower Services"
             fill
             className="object-cover opacity-25 select-none scale-105 animate-[subtle-zoom_20s_infinite_alternate]"
             priority
@@ -309,7 +309,7 @@ Please provide CV availability, rates, and mobilization times.`;
       <section id="overview" className="py-24 bg-white relative overflow-hidden">
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
+
             {/* Left side: Overview text containing all data from GoDaddy */}
             <div className="lg:col-span-7 space-y-6">
               <span className="text-brand-orange font-bold tracking-widest text-xs uppercase block">
@@ -318,7 +318,7 @@ Please provide CV availability, rates, and mobilization times.`;
               <h2 className="font-outfit text-3xl md:text-4xl font-bold text-brand-navy leading-tight">
                 Staffing Solutions for Major EPC Contractors
               </h2>
-              
+
               <div className="border-l-4 border-brand-orange pl-5 py-2">
                 <p className="text-slate-700 text-sm md:text-base leading-relaxed font-medium">
                   IHTIMAL Company provides technical staffing services in Saudi Arabia. We started with a small, focused staffing beginning and have grown to place over 120+ engineers and multiple workforce categories working directly at client locations. The company supports crucial industrial operations, shutdown projects, and EPC activities.
@@ -357,7 +357,7 @@ Please provide CV availability, rates, and mobilization times.`;
                   <HardHat className="w-5 h-5 text-brand-orange" />
                   Staffing Categories supplied
                 </h3>
-                
+
                 <div className="space-y-4">
                   {["Engineers", "Designers", "Technicians", "Project Managers", "Inspectors", "Safety Personnel"].map((catName, idx) => (
                     <div key={idx} className="flex items-center gap-3 p-3.5 bg-white rounded-xl shadow-xs border border-gray-50">
@@ -379,7 +379,7 @@ Please provide CV availability, rates, and mobilization times.`;
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[300px] bg-brand-orange/5 blur-[120px] pointer-events-none" />
 
         <div className="container mx-auto px-4 md:px-8 relative z-10">
-          
+
           <div className="text-center max-w-2xl mx-auto mb-16">
             <span className="text-brand-orange font-bold tracking-widest text-xs uppercase mb-3 block">
               // DEPLOYMENT FIELDS
@@ -392,7 +392,7 @@ Please provide CV availability, rates, and mobilization times.`;
             </p>
           </div>
 
-          <motion.div 
+          <motion.div
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
@@ -435,16 +435,16 @@ Please provide CV availability, rates, and mobilization times.`;
       {/* 4. RECRUITMENT STRENGTH */}
       <section className="py-24 bg-white relative overflow-hidden">
         <div className="container mx-auto px-4 md:px-8 relative z-10">
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
+
             {/* Left side: Graphic representation of CV pipeline */}
             <div className="lg:col-span-5 relative flex justify-center items-center">
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 rounded-full bg-brand-orange/5 blur-[90px] pointer-events-none" />
 
               <div className="w-full bg-brand-navy text-white rounded-3xl p-8 shadow-xl space-y-6 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 rounded-full bg-brand-orange/10 blur-[40px]" />
-                
+
                 <h3 className="font-outfit text-lg font-bold border-b border-white/10 pb-3 flex items-center gap-2">
                   <Database className="w-5 h-5 text-brand-orange" />
                   Staffing & Recruiting Engine
@@ -554,7 +554,7 @@ Please provide CV availability, rates, and mobilization times.`;
       {/* 6. ONGOING ROLES PIPELINE (WITH ACTUAL SITE WORKER PHOTOS) */}
       <section className="py-24 bg-white relative overflow-hidden">
         <div className="container mx-auto px-4 md:px-8 relative z-10">
-          
+
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
             <div className="max-w-2xl">
               <span className="text-brand-orange font-bold tracking-widest text-xs uppercase mb-3 block">
@@ -585,7 +585,7 @@ Please provide CV availability, rates, and mobilization times.`;
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredRoles.map((role, idx) => (
               <div key={idx} className="bg-brand-gray border border-gray-100 rounded-3xl overflow-hidden hover:border-brand-orange/30 hover:shadow-lg transition-all duration-300 group flex flex-col">
-                
+
                 {/* Visual Frame */}
                 <div className="relative aspect-[4/3] w-full bg-slate-900 overflow-hidden">
                   <Image
@@ -595,7 +595,7 @@ Please provide CV availability, rates, and mobilization times.`;
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-brand-navy/10 group-hover:bg-transparent transition-colors duration-300" />
-                  
+
                   {/* Category badge */}
                   <span className="absolute top-4 left-4 bg-brand-orange text-white text-[9px] font-bold px-3 py-1 rounded-md uppercase tracking-wider shadow-sm">
                     {role.cat}
@@ -612,7 +612,7 @@ Please provide CV availability, rates, and mobilization times.`;
                       {role.spec}
                     </p>
                   </div>
-                  
+
                   <button
                     onClick={() => handleQuickInquiry(role.name)}
                     className="w-full bg-white hover:bg-brand-orange hover:text-white text-brand-navy py-3 px-4 rounded-xl font-bold text-xs border border-gray-200 hover:border-brand-orange transition-all duration-300 flex items-center justify-center gap-2 group/btn cursor-pointer"
@@ -633,7 +633,7 @@ Please provide CV availability, rates, and mobilization times.`;
       <section id="quote-form" className="py-24 relative overflow-hidden bg-brand-gray">
         <div className="container mx-auto px-4 md:px-8">
           <div className="max-w-4xl mx-auto glass-panel rounded-3xl overflow-hidden shadow-xl grid grid-cols-1 lg:grid-cols-12 border border-white/20">
-            
+
             {/* Left Info Panel */}
             <div className="lg:col-span-5 bg-brand-navy text-white p-8 md:p-10 flex flex-col justify-between relative overflow-hidden">
               {/* Background refinery */}
@@ -646,7 +646,7 @@ Please provide CV availability, rates, and mobilization times.`;
                 />
               </div>
               <div className="absolute top-0 right-0 w-44 h-44 rounded-full bg-brand-orange/15 blur-[60px]" />
-              
+
               <div className="relative z-10 space-y-6">
                 <span className="text-brand-orange font-bold tracking-widest text-[10px] uppercase">
                   // RECRUITING DESK
@@ -683,7 +683,7 @@ Please provide CV availability, rates, and mobilization times.`;
               <div className="relative z-10 mt-12 border-t border-white/10 pt-6">
                 <p className="text-[10px] text-slate-400 uppercase font-bold tracking-widest">Or Call Directly</p>
                 <a href="tel:+966539370929" className="text-brand-orange font-bold text-lg hover:underline transition-all block mt-1">
-                  +966 53 937 0929
+                  +966 133636284
                 </a>
               </div>
             </div>
