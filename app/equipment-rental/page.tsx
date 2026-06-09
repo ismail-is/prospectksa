@@ -399,7 +399,7 @@ Please provide availability and pricing details.`;
         <div className="absolute inset-0 z-0">
           <Image
             src="/equipment_rental_hero.png"
-            alt=" The Ihtimal Com Heavy Equipment Fleet"
+            alt=" The Ihtimal Company Heavy Equipment Fleet"
             fill
             className="object-cover opacity-25 select-none scale-105 animate-[subtle-zoom_20s_infinite_alternate]"
             priority
@@ -741,7 +741,7 @@ Please provide availability and pricing details.`;
             <div className="group relative aspect-[3/2] rounded-3xl overflow-hidden shadow-lg border border-white/10 bg-slate-900">
               <Image
                 src="/equipment_original_1.png"
-                alt=" The Ihtimal Com Site Equipment"
+                alt=" The Ihtimal Company  Site Equipment"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -755,7 +755,7 @@ Please provide availability and pricing details.`;
             <div className="group relative aspect-[3/2] rounded-3xl overflow-hidden shadow-lg border border-white/10 bg-slate-900">
               <Image
                 src="/equipment_original_2.webp"
-                alt=" The Ihtimal Com Fleet Mobilization"
+                alt=" The Ihtimal Company Fleet Mobilization"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />

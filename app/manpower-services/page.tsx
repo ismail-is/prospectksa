@@ -241,7 +241,7 @@ Please provide CV availability, rates, and mobilization times.`;
         <div className="absolute inset-0 z-0">
           <Image
             src="/manpower_hero.png"
-            alt=" The Ihtimal Com Manpower Services"
+            alt=" The Ihtimal Company Manpower Services"
             fill
             className="object-cover opacity-25 select-none scale-105 animate-[subtle-zoom_20s_infinite_alternate]"
             priority

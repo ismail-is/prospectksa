@@ -86,7 +86,7 @@ export default function ContactPage() {
     e.preventDefault();
     setLoading(true);
 
-    const formattedMessage = `*New Inquiry from  The Ihtimal Com Website*
+    const formattedMessage = `*New Inquiry from  Ihtimal Company Website*
 ----------------------------------
 *Name:* ${formData.name}
 *Company:* ${formData.company}
@@ -237,7 +237,7 @@ export default function ContactPage() {
                       Message Sent Successfully!
                     </h4>
                     <p className="text-slate-600 text-sm max-w-sm mb-6 leading-relaxed">
-                      Thank you for contacting  The Ihtimal Com. Our consultants will review your request and get back to you within 24 hours.
+                      Thank you for contacting  The Ihtimal Company. Our consultants will review your request and get back to you within 24 hours.
                     </p>
                     <button
                       onClick={() => setFormSubmitted(false)}
@@ -399,7 +399,7 @@ export default function ContactPage() {
 
               <div className="relative z-20">
                 <span className="text-brand-orange font-bold tracking-widest text-[9px] uppercase mb-3 block">
-                  Why Connect With  The Ihtimal Com?
+                  Why Connect With  The Ihtimal Company?
                 </span>
                 <h3 className="font-outfit text-3xl font-extrabold mb-4 leading-tight">
                   Delivering Excellence Through Every Connection
@@ -431,7 +431,7 @@ export default function ContactPage() {
               {/* Bottom tag */}
               <div className="relative z-20 border-t border-white/10 pt-6 mt-8">
                 <span className="text-[9px] font-mono tracking-widest text-slate-400 uppercase">
-                  The Ihtimal Com // INDUSTRIAL SERVICES
+                  The Ihtimal Company // INDUSTRIAL SERVICES
                 </span>
               </div>
             </div>
@@ -468,7 +468,7 @@ export default function ContactPage() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="absolute inset-0 w-full h-full"
-              title=" The Ihtimal Com Location (Al Jubail)"
+              title=" The Ihtimal Company Location (Al Jubail)"
             />
 
             {/* Floating Address Card */}

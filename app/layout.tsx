@@ -5,7 +5,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: " The Ihtimal Com | Industrial Excellence",
+  title: " Ihtimal Company | Industrial Excellence",
   description: "Leading provider of equipment rental, manpower solutions, coating, blasting, infrastructure, and industrial contracting services across Saudi Arabia.",
   icons: {
     icon: "/Prospect Logo.webp",

@@ -233,7 +233,7 @@ export default function AboutPage() {
                 variants={fadeInUp}
                 className="text-slate-600 text-sm md:text-base leading-relaxed max-w-xl"
               >
-                The Ihtimal Com (IHTIMAL Contracting Est.) is a premier industrial partner delivering certified manpower, advanced heavy equipment rentals, and specialized industrial services with absolute safety, quality compliance, and operational reliability across the Kingdom.
+                The Ihtimal Company is a premier industrial partner delivering certified manpower, advanced heavy equipment rentals, and specialized industrial services with absolute safety, quality compliance, and operational reliability across the Kingdom.
               </motion.p>
 
               {/* Grid indicators */}
@@ -721,7 +721,7 @@ export default function AboutPage() {
               // VALUE PROPOSITION
             </span>
             <h2 className="font-outfit text-3xl md:text-4xl font-bold text-brand-navy leading-tight">
-              Why Partner with  The Ihtimal Com?
+              Why Partner with  The Ihtimal Company?
             </h2>
           </div>
 
@@ -853,7 +853,7 @@ export default function AboutPage() {
               Let's Build Something Great Together!
             </h2>
             <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-              Partner with  The Ihtimal Com (IHTIMAL Est.) for reliable, safe, and high-quality industrial support solutions. Speak with our Jubail operations team for quick deployments.
+              Partner with  The Ihtimal Company for reliable, safe, and high-quality industrial support solutions. Speak with our Jubail operations team for quick deployments.
             </p>
           </motion.div>
 

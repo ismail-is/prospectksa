@@ -76,7 +76,7 @@ export default function WhyChooseUs() {
                 Why Choose Us?
               </span>
               <h2 className="font-outfit text-4xl md:text-5xl font-bold text-brand-navy mb-6">
-                The  The Ihtimal Com Advantage
+                The  The Ihtimal Company  Advantage
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-8">
                 We bring unparalleled expertise and commitment to every project, ensuring highest standards of quality and efficiency.

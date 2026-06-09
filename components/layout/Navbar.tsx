@@ -87,7 +87,7 @@ export default function Navbar() {
             <div className="relative w-36 h-12 md:w-44 md:h-14">
               <Image
                 src="/images/logo.webp"
-                alt=" The Ihtimal Com Logo"
+                alt=" The Ihtimal Company Logo"
                 fill
                 className="object-contain object-center bg-white rounded-[8px] p-1"
                 priority

@@ -6,12 +6,12 @@ import { Quote, ChevronLeft, ChevronRight, User } from "lucide-react";
 
 const testimonials = [
   {
-    quote: " The Ihtimal Com has been a reliable partner in our projects. Their professionalism, quality of work and commitment to safety is truly exceptional.",
+    quote: " The Ihtimal Company has been a reliable partner in our projects. Their professionalism, quality of work and commitment to safety is truly exceptional.",
     name: "Ahmed Al-Qahtani",
     designation: "Project Manager, Aramco",
   },
   {
-    quote: "The level of expertise and the modern equipment provided by  The Ihtimal Com significantly contributed to the on-time delivery of our plant expansion.",
+    quote: "The level of expertise and the modern equipment provided by  The IIhtimal Company significantly contributed to the on-time delivery of our plant expansion.",
     name: "Faisal Al-Dosari",
     designation: "Operations Director, SABIC",
   },
