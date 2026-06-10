@@ -5,6 +5,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { CountUp } from "@/components/ui/CountUp";
 import {
   Shield,
   TrendingUp,
@@ -34,7 +35,8 @@ import {
 // ─── Data Types ──────────────────────────────────────────────────────────────
 
 interface StatItem {
-  value: string;
+  value: number;
+  suffix: string;
   label: string;
   desc: string;
   icon: React.ComponentType<any>;
@@ -67,10 +69,10 @@ interface ClientLogo {
 // ─── Constants ───────────────────────────────────────────────────────────────
 
 const stats: StatItem[] = [
-  { value: "120+", label: "Engineers & Experts", desc: "Qualified workforce", icon: HardHat },
-  { value: "10,000+", label: "Resume Database", desc: "Wide recruitment pool", icon: Users },
-  { value: "100+", label: "Projects Completed", desc: "Successful handovers", icon: Briefcase },
-  { value: "10+", label: "Years Experience", desc: "Serving Saudi Arabia", icon: Clock },
+  { value: 120, suffix: "+", label: "Engineers & Experts", desc: "Qualified workforce", icon: HardHat },
+  { value: 10000, suffix: "+", label: "Resume Database", desc: "Wide recruitment pool", icon: Users },
+  { value: 100, suffix: "+", label: "Projects Completed", desc: "Successful handovers", icon: Briefcase },
+  { value: 10, suffix: "+", label: "Years Experience", desc: "Serving Saudi Arabia", icon: Clock },
 ];
 
 const timeline: TimelineItem[] = [
@@ -328,7 +330,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <div className="font-outfit font-black text-3xl sm:text-4xl text-brand-navy tracking-tight mb-1 group-hover:text-brand-orange transition-colors">
-                    {stat.value}
+                    <CountUp to={stat.value} suffix={stat.suffix} />
                   </div>
                   <h4 className="text-xs sm:text-sm font-bold text-slate-800 leading-snug uppercase tracking-wide">
                     {stat.label}
