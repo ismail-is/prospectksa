@@ -474,7 +474,7 @@ Please provide availability and pricing details.`;
             {/* Left side: Original text content */}
             <div className="lg:col-span-7 space-y-6">
               <span className="text-brand-orange font-bold tracking-widest text-xs uppercase block">
-                // PROSPECT CONTRACTING EST.
+                // Ihtimal Company  CONTRACTING EST.
               </span>
               <h2 className="font-outfit text-3xl md:text-4xl font-bold text-brand-navy leading-tight">
                 Equipment Rental Services
@@ -519,7 +519,7 @@ Please provide availability and pricing details.`;
                 <div className="col-span-8 relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md border border-gray-100 hover:scale-[1.02] transition-transform duration-300">
                   <Image
                     src="/equipment_original_1.png"
-                    alt="Prospect Machinery Fleet 1"
+                    alt="Ihtimal Company Machinery Fleet 1"
                     fill
                     className="object-cover"
                   />
@@ -537,7 +537,7 @@ Please provide availability and pricing details.`;
                 <div className="col-span-12 relative aspect-[2/1] rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:scale-[1.02] transition-transform duration-300">
                   <Image
                     src="/equipment_original_2.webp"
-                    alt="Prospect Machinery Fleet 2"
+                    alt="Ihtimal Company Machinery Fleet 2"
                     fill
                     className="object-cover"
                   />

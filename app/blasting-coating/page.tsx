@@ -291,7 +291,7 @@ Please provide specifications, application procedures, and quotes.`;
                 <div className="col-span-8 relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md border border-gray-100 hover:scale-[1.02] transition-transform duration-300">
                   <Image
                     src="/blasting/corrocoat.jpg"
-                    alt="Prospect Coating Shop"
+                    alt="Ihtimal Company Coating Shop"
                     fill
                     className="object-cover"
                   />
@@ -309,7 +309,7 @@ Please provide specifications, application procedures, and quotes.`;
                 <div className="col-span-12 relative aspect-[2/1] rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:scale-[1.02] transition-transform duration-300">
                   <Image
                     src="/blasting/abrasive_safety.jpg"
-                    alt="Prospect Abrasive Blasting Safety"
+                    alt="Ihtimal Company Abrasive Blasting Safety"
                     fill
                     className="object-cover"
                   />

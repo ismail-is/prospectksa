@@ -327,7 +327,7 @@ Please provide CV availability, rates, and mobilization times.`;
 
               {/* Exact paragraph from Godaddy site */}
               <p className="text-slate-600 text-xs md:text-sm leading-relaxed bg-brand-gray p-6 rounded-2xl border border-gray-100">
-                Ihtimal can provide engineers / Designers / technicians right from conceptualization of the project to Design to Construction to Pre commissioning & Commissioning to Operations and Maintenance of the plant. Prospect Provide project manager / Inspectors / Safety personnel for smooth function of the projects. It can also mobilize large manpower for shutdown assignment of 15 days to few months. Prospect has large in-house database ie more than 75,000 resume data base and very strong referral programme to attract talent from the industry. Its recruiters are well trained and can identify the candidates meeting your project requirements.
+                Ihtimal can provide engineers / Designers / technicians right from conceptualization of the project to Design to Construction to Pre commissioning & Commissioning to Operations and Maintenance of the plant. Ihtimal Company  Provide project manager / Inspectors / Safety personnel for smooth function of the projects. It can also mobilize large manpower for shutdown assignment of 15 days to few months. Ihtimal Company has large in-house database ie more than 75,000 resume data base and very strong referral programme to attract talent from the industry. Its recruiters are well trained and can identify the candidates meeting your project requirements.
               </p>
 
               {/* Stats Counters Grid */}
@@ -388,7 +388,7 @@ Please provide CV availability, rates, and mobilization times.`;
               Technical Staffing Disciplines
             </h2>
             <p className="text-slate-500 mt-3 text-sm leading-relaxed">
-              Prospect can deploy qualified technical staff in the following seven core fields of industrial development.
+              Ihtimal Company can deploy qualified technical staff in the following seven core fields of industrial development.
             </p>
           </div>
 
@@ -491,7 +491,7 @@ Please provide CV availability, rates, and mobilization times.`;
                 Talent Sourcing Speed & Capacity
               </h2>
               <p className="text-slate-600 text-sm md:text-base leading-relaxed">
-                Prospect has set up an exhaustive and modern recruitment process to supply safety inspectors, riggers, and Aramco engineering profiles for both EPC firms and inspection agencies.
+                Ihtimal Company has set up an exhaustive and modern recruitment process to supply safety inspectors, riggers, and Aramco engineering profiles for both EPC firms and inspection agencies.
               </p>
 
               <div className="space-y-6 pt-4">
