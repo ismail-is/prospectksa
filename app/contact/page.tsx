@@ -37,8 +37,7 @@ const contactCards = [
   {
     icon: MapPin,
     title: "Visit Us",
-    detail: "Dammam, Saudi Arabia",
-    subtext: "P.O. Box 12345",
+    detail: "8661 Al Khail street, As safa, jubail 35514 Saudi Arabia",
     href: "#map",
   },
   {

@@ -195,8 +195,7 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 text-brand-orange group-hover:text-white transition-colors" />
               </div>
               <div>
-                <span className="font-semibold text-white text-xs block">Hilton Garden Inn District</span>
-                <span className="text-xs text-slate-400">Jubail Front, Eastern Province, KSA</span>
+                <span className="font-semibold text-white text-xs block">8661 Al Khail street, As safa,<br/> jubail 35514 Saudi Arabia</span>
                 <span className="text-brand-orange text-[11px] font-bold flex items-center gap-1 mt-1 group-hover:underline">
                   Open in Maps <ArrowUpRight className="w-3 h-3" />
                 </span>
