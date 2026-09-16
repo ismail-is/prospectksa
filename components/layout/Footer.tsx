@@ -89,7 +89,7 @@ export default function Footer() {
             <Link href="/" className="inline-block group">
               <div className="relative w-[160px] h-[56px]">
                 <Image
-                  src="/images/logo.webp"
+                  src="/images/logo.jpeg"
                   alt=" The Ihtimal Com Logo"
                   fill
                   className="object-contain object-center bg-white rounded-[10px] "

@@ -86,7 +86,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center z-50 relative">
             <div className="relative w-36 h-12 md:w-44 md:h-14">
               <Image
-                src="/images/logo.webp"
+                src="/images/logo.jpeg"
                 alt=" The Ihtimal Company Logo"
                 fill
                 className="object-contain object-center bg-white rounded-[8px] p-1"

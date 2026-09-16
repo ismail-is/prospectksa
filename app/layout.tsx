@@ -8,7 +8,9 @@ export const metadata: Metadata = {
   title: " Ihtimal Company | Industrial Excellence",
   description: "Leading provider of equipment rental, manpower solutions, coating, blasting, infrastructure, and industrial contracting services across Saudi Arabia.",
   icons: {
-    icon: "/Prospect Logo.webp",
+    icon: "/images/logo.jpeg",
+    shortcut: "/images/logo.jpeg",
+    apple: "/images/logo.jpeg",
   },
 };
 

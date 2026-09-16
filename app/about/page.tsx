@@ -300,7 +300,7 @@ export default function AboutPage() {
                     </div>
                   </div>
                   <span className="text-[10px] font-mono font-bold text-white bg-brand-navy px-2.5 py-1 rounded-md">
-                    Reg. 7030721448
+                    Reg. 10109686
                   </span>
                 </motion.div>
               </div>
