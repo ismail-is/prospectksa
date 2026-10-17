@@ -131,15 +131,15 @@ export default function Clients() {
                     <div className="relative w-full h-2/3">
                       <Image
                         src={client.src}
-                        alt={client.name}
+                        alt="client logo"
                         fill
                         className="object-contain grayscale group-hover:grayscale-0 opacity-60 group-hover:opacity-100 transition-all duration-300"
                         sizes="120px"
                       />
                     </div>
-                    <span className="font-outfit font-black text-[10px] text-slate-400 group-hover:text-brand-navy transition-colors text-center uppercase tracking-wider block">
+                    {/* <span className="font-outfit font-black text-[10px] text-slate-400 group-hover:text-brand-navy transition-colors text-center uppercase tracking-wider block">
                       {client.name}
-                    </span>
+                    </span> */}
                   </motion.div>
                 ))}
               </motion.div>
