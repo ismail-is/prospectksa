@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Truck, Users, Droplets, Anchor, Wrench, Settings } from "lucide-react";
+import { Truck, Users, Droplets, Anchor, Wrench, Settings, Car } from "lucide-react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
@@ -29,6 +29,12 @@ const services = [
     title: "Lifting Materials",
     description: "Wide range of lifting equipment and materials for safe operations.",
     href: "/lifting-materials",
+  },
+  {
+    icon: Car,
+    title: "Workshop Vehicle Maintenance & Car Wash",
+    description: "Comprehensive vehicle repair, fleet maintenance, computer diagnostics, and premium industrial car wash.",
+    href: "/workshop-vehicle-maintenance",
   },
   {
     icon: Wrench,

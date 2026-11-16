@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Phone, ArrowRight, ChevronDown, Wrench, Users, Paintbrush, Boxes } from "lucide-react";
+import { Menu, X, Phone, ArrowRight, ChevronDown, Wrench, Users, Paintbrush, Boxes, Car } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -43,6 +43,13 @@ const servicesList = [
     href: "/lifting-materials",
     image: "/project_image_1.png",
     icon: Boxes,
+  },
+  {
+    name: "Vehicle Maintenance & Car Wash",
+    desc: "Full-service mechanical workshop, fleet repair & car wash.",
+    href: "/workshop-vehicle-maintenance",
+    image: "/images/carwash.png",
+    icon: Car,
   },
 ];
 
@@ -205,7 +212,7 @@ export default function Navbar() {
                           </div>
 
                           {/* Right side: Dynamic Preview Image */}
-                          <div className="w-[280px] h-[340px] relative rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-inner">
+                          <div className="w-[280px] min-h-[380px] self-stretch relative rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-inner">
                             <AnimatePresence mode="wait">
                               <motion.div
                                 key={hoveredService}

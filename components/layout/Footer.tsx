@@ -29,6 +29,7 @@ const serviceLinks = [
   { name: "Manpower Services", href: "/manpower-services" },
   { name: "Blasting & Coating", href: "/blasting-coating" },
   { name: "Lifting Materials", href: "/lifting-materials" },
+  { name: "Vehicle Maintenance & Car Wash", href: "/workshop-vehicle-maintenance" },
 ];
 
 const fadeInUp: any = {

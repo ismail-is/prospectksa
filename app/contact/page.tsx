@@ -332,6 +332,7 @@ export default function ContactPage() {
                           <option value="Manpower Services">Manpower Services Request</option>
                           <option value="Blasting & Coating">Blasting & Coating Inquiry</option>
                           <option value="Lifting Materials">Lifting Materials Rigging</option>
+                          <option value="Workshop Vehicle Maintenance & Car Wash">Workshop Vehicle Maintenance & Car Wash</option>
                           <option value="General Consultation">General Contracting / Other</option>
                         </select>
                         <ChevronDown className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 w-4 h-4" />
